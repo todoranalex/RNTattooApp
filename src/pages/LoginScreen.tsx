@@ -32,7 +32,7 @@ export const LoginScreen = () => {
           justifyContent: 'flex-end',
           flex: 0.2,
         }}>
-        <View style={[styles.inputContainer, {marginBottom: 15}]}>
+        <View style={[styles.inputContainer, {marginBottom: 8}]}>
           <TextInput
             style={styles.textInput}
             textContentType={'emailAddress'}
