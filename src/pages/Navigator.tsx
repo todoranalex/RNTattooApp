@@ -20,7 +20,11 @@ export const Navigator = () => {
         options={{headerShown: false}}
       />
       <Stack.Screen name="Register" component={BioScreen} />
-      <Stack.Screen name="Bio" component={BioScreen} />
+      <Stack.Screen
+        name="Bio"
+        component={BioScreen}
+        options={{headerShown: true}}
+      />
     </Stack.Navigator>
   );
 };
